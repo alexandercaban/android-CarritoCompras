@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/contenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/tabs"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:menu="@menu/menu_tabs"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/tab_item_color"
+        app:itemTextColor="@color/tab_item_color"
+        app:itemIconSize="25dp">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

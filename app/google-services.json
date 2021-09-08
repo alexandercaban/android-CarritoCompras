@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565500980708",
+    "firebase_url": "https://carritodecompras-ae679.firebaseio.com",
+    "project_id": "carritodecompras-ae679",
+    "storage_bucket": "carritodecompras-ae679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565500980708:android:bbc1b9a8bd08ca89",
+        "android_client_info": {
+          "package_name": "com.example.alexcaban.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565500980708-k603s3416o6scpalo7tq15fob6cs93h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alexcaban.proyectofinal",
+            "certificate_hash": "40700198b50d60803e1278938242e3fa067a8499"
+          }
+        },
+        {
+          "client_id": "565500980708-fl24e8t9t4shlnb1oojq65odcpotqjp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkRa9JmY0q21GXBUNEMS62mYR8qByM5Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565500980708-fl24e8t9t4shlnb1oojq65odcpotqjp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
